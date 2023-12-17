@@ -638,6 +638,10 @@ footer .copyright {
     height: 30vh;
   }
 
+  #off-banners .banner-seasonals {
+    margin-top: 20px;
+  }
+
   #off-banners2 {
     padding: 0 40px;
   }
@@ -649,4 +653,64 @@ footer .copyright {
   #newsletter .form {
     width: 70%;
 }
+}
+
+@media (max-width:477px) {
+  .section-p1 {
+    padding: 20px;
+  }
+
+  #header {
+    padding: 10px 30px;
+  }
+
+  h1 {
+    font-size: 38px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  #hero {
+    padding: 0 33px;
+    background-position: 66%;
+  }
+
+  #feature {
+    justify-content: space-evenly;
+  }
+  #feature .fe-box {
+    width: 155px;
+    margin: 0 0 15px 0;
+  }
+
+  #feat-products .product {
+    width: 100%;
+  }
+
+  #banner {
+    height: 40vh;
+  }
+
+  #off-banners .banner-deals {
+    height: 40vh;
+    background-position: 56%;
+  }
+
+  #off-banners .banner-seasonals {
+    margin-top: 20px;
+  }
+
+  #off-banners2 {
+    padding: 0 20px;
+  }
+
+  #newsletter {
+    padding: 40px 20px;
+  }
+
+  #newsletter .form {
+    width: 100%;
+  }
 }
