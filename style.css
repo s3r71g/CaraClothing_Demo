@@ -166,6 +166,10 @@ body {
   color: #56d8bc;
 }
 
+#hero p{
+  color: #556461;
+}
+
 #hero button{
   background-image: url(img/button.png);
   background-color: transparent;
@@ -239,6 +243,10 @@ body {
 
 #feat-products {
   text-align: center;
+}
+
+#feat-products p{
+  color: #000;
 }
 
 #feat-products .pro-container {
@@ -515,6 +523,7 @@ footer h4 {
 footer p {
   font-size: 13px;
   margin: 0 0 8px 0;
+  color: #000;
 }
 
 footer a {
@@ -588,6 +597,69 @@ footer .copyright {
   font-size: 16px;
   font-weight: 600;
 }
+
+/* Single Product */
+#prodetails{
+  display: flex;
+  margin-top: 20px;
+}
+
+#prodetails .single-pro-img{
+  width: 40%;
+  margin-right: 50px;
+}
+
+#prodetails .single-pro-img img{
+  border: 1px solid #cce7d0;
+  border-radius: 10px;
+}
+
+.small-img-group{
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col{
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#prodetails .single-pro-details{
+  width: 50%;
+  padding-top: 30px;
+}
+
+#prodetails .single-pro-details h4{
+  padding: 40px 0 20px 0;
+}
+
+#prodetails .single-pro-details h2{
+  font-size: 26px;
+}
+
+#prodetails .single-pro-details select{
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input{
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#prodetails .single-pro-details button{
+  background: #56d8bc;
+  color: #fff;
+}
+
+#prodetails .single-pro-details span{
+  line-height: 25px;
+}
+
 
 /* Start Media Query */
 @media (max-width: 799px) {
